@@ -1,0 +1,26 @@
+h2,h3{
+    font-size: 25px;
+    font-family: 'Arial';
+}
+
+.contenedor a{
+    /* SELECCIONA LOS A QUE ESTAN DENTRO DE LA CLASE */
+    text-decoration: none;
+    color: firebrick;
+}
+
+.contenedor>a{
+    /* SELECCIONA SOLO LOS A QUE SON HIJOS DIRECTOS DE LA CLASE. */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2+p{
+    /* MODIFICA SOLO AL HERMANO QUE ESTA ENSEGUIDA. (SE MODIFICARIA SOLO EL PRIMER P) */
+    color: gold;
+}
+
+h3~p{
+    /* MODIFICA TODOS LOS HERMANOS QUE LE SIGUEN (SE MODIFICARIA TODOS LOS QUE ESTEN DESPUES DEL H3)  */
+    color: indigo;
+}
