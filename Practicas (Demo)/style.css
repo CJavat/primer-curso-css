@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-img {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.img1 {
+  background-image: 
+  linear-gradient(rgba(20, 30, 48, .5), 
+  rgba(36, 59, 85, .5)), url('./img/dev1.png');
+}
+
+.img2 {
+  background-image: 
+  linear-gradient(rgba(20, 30, 48, .5), 
+  rgba(36, 59, 85, .5)), url('./img/dev2.jpg');
+}
+
+.img3 {
+  background-image: 
+  linear-gradient(rgba(20, 30, 48, .5), 
+  rgba(36, 59, 85, .5)), url('./img/dev3.jpg');
+}
+
+.img4 {
+  background-image: 
+  linear-gradient(rgba(20, 30, 48, .5), 
+  rgba(36, 59, 85, .5)), url('./img/dev4.jpg');
+}
+
+.texto {
+  right: 100px;
+  height: auto;
+  width: 500px;
+  bottom: 10px;
+  color: #fff;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
+}
