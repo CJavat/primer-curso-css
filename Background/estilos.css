@@ -11,7 +11,7 @@
     margin: 30px auto;
     /* background: rgb(100,100,250); */
     background-color:rgb(100, 100, 250);
-    background-image: url(img/spidy.png);
+    background-image: url(./img/spidy.png);
     background-repeat:no-repeat;
     background-position:top 10px right 50px;
     background-position: center;
